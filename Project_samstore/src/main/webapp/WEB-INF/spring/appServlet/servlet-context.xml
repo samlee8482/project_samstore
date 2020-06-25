@@ -37,14 +37,13 @@
 		<beans:property name="dataSource" ref="dataSource"/>
 	</beans:bean>
 
-	<!-- MyBatis 설정 -->
+	<!-- MyBatis 설정
 	<beans:bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource"/>
 		<beans:property name="mapperLocations" value="classpath:sam/project/samstore/mapper/*.xml"/>
 	</beans:bean>
-	
 	<beans:bean name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
 		<beans:constructor-arg index="0" ref="sqlSessionFactory"/>
 	</beans:bean>
-	
+	 -->
 </beans:beans>
