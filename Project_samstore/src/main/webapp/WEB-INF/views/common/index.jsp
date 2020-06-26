@@ -15,6 +15,7 @@
 			<strong class="logo_box"><img src="./images/mainLogo.png" alt="이지스퍼블리싱"></strong>
 		</header>
 		<section id="container"></section>	
+		<footer></footer>
 	</section>
 </body>
 </html>
