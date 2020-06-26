@@ -6,13 +6,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="../CSS/ui.css">
 <title>Index</title>
 </head>
 <body>
 	<section id="wrap">
 		<h1>이지스퍼블리싱</h1>
 		<header>
-			<strong class="logo_box"><img src="./images/mainLogo.png" alt="이지스퍼블리싱"></strong>
+			<strong class="logo_box"><img src="../images/mainLogo.png" alt="이지스퍼블리싱"></strong>
 		</header>
 		<section id="container"></section>	
 		<footer></footer>
