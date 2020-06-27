@@ -14,6 +14,14 @@
 		<h1>이지스퍼블리싱</h1>
 		<header>
 			<strong class="logo_box"><img src="../images/mainLogo.png" alt="이지스퍼블리싱"></strong>
+			<nav>
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">도서소개</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</header>
 		<section id="container"></section>	
 		<footer></footer>
