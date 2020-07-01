@@ -10,5 +10,5 @@ public class BoardDTO {
 	private int brd_viewCnt;
 	private String brd_title;
 	private String brd_content;
-	private Timestamp reg_date;
+	private Timestamp brd_regDate;
 }
