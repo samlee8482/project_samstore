@@ -1,5 +1,7 @@
 package sam.project.samstore.dto;
 
+import java.sql.Timestamp;
+
 public class MemberDTO {
 	private int mb_uid;
 	private int mb_type;
@@ -10,6 +12,6 @@ public class MemberDTO {
 	private String mb_img_sav;
 	private String mb_tel;
 	private String mb_email;
-	private String mb_regDate;
+	private Timestamp mb_regDate;
 	private String mb_address;
 }
