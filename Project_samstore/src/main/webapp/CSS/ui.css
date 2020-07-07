@@ -72,6 +72,13 @@ header .logo_box img{
 	background: #ed3140;
 }
 
+footer{
+	width: 180px;
+	position fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
 #container{
 	width: 100%;
 	height: 100%;
