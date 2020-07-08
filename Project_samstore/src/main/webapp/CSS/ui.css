@@ -77,6 +77,10 @@ footer{
 	position fixed;
 	right: 0px;
 	bottom: 0px;
+	padding: 0px 20px 30px 20px;
+	font-size: 11px;
+	color: #7e7e7e;
+	z-index: 12;
 }
 
 #container{
