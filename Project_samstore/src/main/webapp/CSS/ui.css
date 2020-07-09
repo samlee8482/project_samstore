@@ -87,6 +87,42 @@ footer address{
 	padding: 0px 0px 15px 0px;
 }
 
+footer > a{
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: -31px;
+	transition:.4s;
+}
+
+footer > a.face{
+	background: url(../images/social_b_facebook.png) no-repeat;
+	right: 18px;
+}
+
+footer > a.face:hover{
+	background: url(../images/social_b_facebook_hover.png) no-repeat;
+}
+
+footer > a.twit{
+	background: url(../images/social_b_twitter.png) no-repeat;
+	right: 48px;	
+}
+
+footer > a.twit:hover{
+	background: url(../images/social_b_twitter_hover.png) no-repeat;
+}
+
+footer > a.instar{
+	background: url(../images/social_b_instar.png) no-repeat;
+	right: 80px;	
+}
+
+footer > a.instar:hover{
+	background: url(../images/social_b_instar_hover.png) no-repeat;
+}
+
 #container{
 	width: 100%;
 	height: 100%;
