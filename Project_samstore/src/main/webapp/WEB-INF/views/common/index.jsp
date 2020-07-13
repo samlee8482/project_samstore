@@ -23,7 +23,12 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="container"></section>	
+		<section id="container">
+			<section id="menu1" class="content"></section>
+			<section id="menu2" class="content"></section>
+			<section id="menu3" class="content"></section>
+			<section id="menu4" class="content"></section>
+		</section>	
 		<footer>
 			<address>(04003)서울특별시 마포구 잔다리로 109 TEL (02)325-1722 (02)326-1723</address>
 			<p>Copyright(c)2015 이지스퍼블리싱㈜ EasyPublishing Co., Ltd. All Rights Reserved</p>
