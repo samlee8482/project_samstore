@@ -11,7 +11,7 @@
 </head>
 <body>
 	<section id="wrap">
-		<h1>이지스퍼블리싱</h1>
+		<h1>샘's 스토어</h1>
 		<header>
 			<strong class="logo_box"><img src="../images/mainLogo.png" alt="이지스퍼블리싱"></strong>
 			<nav>
@@ -31,7 +31,7 @@
 		</section>	
 		<footer>
 			<address>(04003)서울특별시 마포구 잔다리로 109 TEL (02)325-1722 (02)326-1723</address>
-			<p>Copyright(c)2015 이지스퍼블리싱㈜ EasyPublishing Co., Ltd. All Rights Reserved</p>
+			<p>Copyright(c)2015 Sam's Store㈜ EasyPublishing Co., Ltd. All Rights Reserved</p>
 			<a href="#" class="face" title="페이스북으로 이동"></a>
 			<a href="#" class="twit" title="트위터로 이동"></a>
 			<a href="#" class="instar" title="인스타그램으로 이동"></a>
