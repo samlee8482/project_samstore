@@ -74,7 +74,7 @@ header .logo_box img{
 
 footer{
 	width: 180px;
-	position fixed;
+	position: fixed;
 	right: 0px;
 	bottom: 0px;
 	padding: 0px 20px 30px 20px;
