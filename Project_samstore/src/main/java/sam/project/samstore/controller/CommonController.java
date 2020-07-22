@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CommonController {
 	
 	@RequestMapping("/index.sam")
-	 public void main() {
+	public void main() {
 	}
 }
