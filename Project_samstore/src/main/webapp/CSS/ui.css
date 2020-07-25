@@ -159,3 +159,12 @@ footer > a.instar:hover{
 	display: block;
 	position: absolute;
 }
+
+#container .content:before{
+	width: 1px;
+	hieght: 100%;
+	background: #000;
+	left: 0;
+	top: 0;
+	z-index: 4;
+}
