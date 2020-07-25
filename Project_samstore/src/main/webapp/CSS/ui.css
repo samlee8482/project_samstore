@@ -153,3 +153,9 @@ footer > a.instar:hover{
 	left: 75%;
 	background:url(../images/content_bg4.png) repeat;
 }
+
+#container .content:before, #container .content:after{
+	content: "";
+	display: block;
+	position: absolute;
+}
