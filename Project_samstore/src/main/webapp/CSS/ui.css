@@ -192,4 +192,9 @@ footer > a.instar:hover{
 #container #menu4:after{
 	content: "Contact Us";
 }
-	
+
+#container .content .conbox:before{
+	content: "";
+	display: block;
+	position: absolute;
+}
