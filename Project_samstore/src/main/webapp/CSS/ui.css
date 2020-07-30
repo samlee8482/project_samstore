@@ -234,3 +234,7 @@ footer > a.instar:hover{
 	top: 100px;
 	background-size: 100%;
 }
+
+#container .content h2{
+	opacity: 0;
+}
