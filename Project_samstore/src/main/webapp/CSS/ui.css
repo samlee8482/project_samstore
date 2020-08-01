@@ -137,6 +137,21 @@ footer > a.instar:hover{
 	position: absolute;
 }
 
+#container .content .this{
+	width: 100%;
+	left: 0;
+}
+
+#container .content .prev{
+	width: 100%;
+	left: -100%;
+}
+
+#container .content .next{
+	width: 100%;
+	left: 100%;
+}
+
 #container #menu1{
 	left: 0%;
 	background:url(../images/content_bg1.png) repeat;
