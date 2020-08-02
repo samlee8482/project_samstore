@@ -137,17 +137,17 @@ footer > a.instar:hover{
 	position: absolute;
 }
 
-#container .content .this{
+#container .content.this{
 	width: 100%;
 	left: 0;
 }
 
-#container .content .prev{
+#container .content.prev{
 	width: 100%;
 	left: -100%;
 }
 
-#container .content .next{
+#container .content.next{
 	width: 100%;
 	left: 100%;
 }
