@@ -24,19 +24,19 @@
 			</nav>
 		</header>
 		<section id="container">
-			<section id="menu1" class="content">
+			<section id="menu1" class="content this">
 				<h2>회사소개</h2>
 				<div class="conbox"></div>
 			</section>
-			<section id="menu2" class="content">
+			<section id="menu2" class="content next">
 				<h2>도서소개</h2>
 				<div class="conbox"></div>
 			</section>
-			<section id="menu3" class="content">
+			<section id="menu3" class="content next">
 				<h2>FAQ</h2>
 				<div class="conbox"></div>
 			</section>
-			<section id="menu4" class="content">
+			<section id="menu4" class="content next">
 				<h2>Contact Us</h2>
 				<div class="conbox"></div>
 			</section>
