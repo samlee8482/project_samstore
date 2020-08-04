@@ -42,7 +42,7 @@
 			</section>
 		</section>	
 		<footer>
-			<address>(04003)서울특별시 ㅇㅇ구 ㅇㅇㅇ로 109 TEL (02)123-1234 (02)123-1234</address>
+			<address>(04003)서울특별시 관악구구 신림로 109 TEL (02)123-1234 (02)123-1234</address>
 			<p>Copyright(c)2015 Sam's Store㈜ EasyPublishing Co., Ltd. All Rights Reserved</p>
 			<a href="#" class="face" title="페이스북으로 이동"></a>
 			<a href="#" class="twit" title="트위터로 이동"></a>
