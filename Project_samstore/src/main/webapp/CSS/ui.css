@@ -139,17 +139,17 @@ footer > a.instar:hover{
 
 #container .content.this{
 	width: 100%;
-	left: 0;
+	left: 0 !important;
 }
 
 #container .content.prev{
 	width: 100%;
-	left: -100%;
+	left: -100% !important;
 }
 
 #container .content.next{
 	width: 100%;
-	left: 100%;
+	left: 100% !important;
 }
 
 #container #menu1{
