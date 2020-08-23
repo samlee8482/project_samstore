@@ -1,4 +1,10 @@
 
+/* Drop Triggers */
+
+DROP TRIGGER TRI_samstore_member_mb_uid;
+
+
+
 /* Drop Tables */
 
 DROP TABLE samstore_reply CASCADE CONSTRAINTS;
@@ -8,6 +14,18 @@ DROP TABLE samstore_merchandise CASCADE CONSTRAINTS;
 DROP TABLE samstore_request CASCADE CONSTRAINTS;
 DROP TABLE samstore_member CASCADE CONSTRAINTS;
 
+
+
+/* Drop Sequences */
+
+DROP SEQUENCE SEQ_samstore_member_mb_uid;
+
+
+
+
+/* Create Sequences */
+
+CREATE SEQUENCE SEQ_samstore_member_mb_uid INCREMENT BY 1 START WITH 1;
 
 
 
@@ -39,13 +57,13 @@ CREATE TABLE samstore_member
 (
 	mb_uid number NOT NULL,
 	mb_type number default 1,
-	mb_id varchar2(20),
+	mb_id varchar2(20) NOT NULL UNIQUE,
 	mb_pw varchar2(20) NOT NULL,
-	mb_name varchar2(20),
+	mb_name varchar2(20) NOT NULL,
 	mb_img_org varchar2(100),
 	mb_img_sav varchar2(100),
 	mb_tel varchar2(20),
-	mb_email varchar2(30),
+	mb_email varchar2(30) UNIQUE,
 	mb_regDate date default sysdate,
 	mb_address varchar2(50),
 	PRIMARY KEY (mb_uid)
@@ -137,6 +155,21 @@ ALTER TABLE samstore_like
 	ADD FOREIGN KEY (mds_uid)
 	REFERENCES samstore_merchandise (mds_uid)
 ;
+
+
+
+/* Create Triggers */
+
+CREATE OR REPLACE TRIGGER TRI_samstore_member_mb_uid BEFORE INSERT ON samstore_member
+FOR EACH ROW
+BEGIN
+	SELECT SEQ_samstore_member_mb_uid.nextval
+	INTO :new.mb_uid
+	FROM dual;
+END;
+
+/
+
 
 
 
