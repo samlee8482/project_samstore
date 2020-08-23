@@ -63,7 +63,7 @@ CREATE TABLE samstore_member
 	mb_img_org varchar2(100),
 	mb_img_sav varchar2(100),
 	mb_tel varchar2(20),
-	mb_email varchar2(30) UNIQUE,
+	mb_email varchar2(30) NOT NULL UNIQUE,
 	mb_regDate date default sysdate,
 	mb_address varchar2(50),
 	PRIMARY KEY (mb_uid)

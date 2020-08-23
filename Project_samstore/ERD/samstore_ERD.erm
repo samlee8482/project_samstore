@@ -135,7 +135,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2020-07-05 23:57:21</creation_date>
-			<updated_date>2020-08-23 21:57:20</updated_date>
+			<updated_date>2020-08-24 00:06:19</updated_date>
 			<model_property>
 				<name>프로젝트명</name>
 				<value></value>
@@ -1313,7 +1313,7 @@
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>false</foreign_key>
-					<not_null>false</not_null>
+					<not_null>true</not_null>
 					<primary_key>false</primary_key>
 					<unique_key>true</unique_key>
 					<character_set></character_set>
