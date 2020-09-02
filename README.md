@@ -1,1 +1,1 @@
-# project_samstore
+# 'Sam's Store'
