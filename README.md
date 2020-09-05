@@ -1,1 +1,1 @@
-# 반응형 웹 'Sam's Store'
+# 반응형 웹스토어 - 'Sam's Store'
