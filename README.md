@@ -1,6 +1,6 @@
 ## 반응형 웹스토어 - 'Sam's Store'
 ### 개요   
-* ~~ 서비스 ‘Sam's Store’   
+* 반응형 웹스토어 ‘Sam's Store’   
 * 프로젝트명 : Sam's Store   
 * 주 사용기술 : SpringFramework(MVC model2)   
 * 참여인원 : 1명
