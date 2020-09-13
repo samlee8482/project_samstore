@@ -1,4 +1,4 @@
-## 반응형 웹스토어 - 'Sam's Store'
+## 반응형 웹 스토어 - 'Sam's Store'
 ### 개요   
 * 반응형 웹스토어 ‘Sam's Store’   
 * 프로젝트명 : Sam's Store   
